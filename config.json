@@ -10,7 +10,7 @@
 	"__nbr_bins_comment__" : "nbr of bins used in visualizing pdf obtained from MCMC",
 	"nbr_warmup" : 200,
 	"__nbr_warmup_comment__" : "nbr of warmup samples to use in MCMC",
-	"nbr_samples" : 10000,
+	"nbr_samples" : 20000,
 	"__nbr_samples__comment__" : "nbr of samples to use in MCMC",
 	"nbr_walkers" : 32,
 	"__nbr_walkers_comment__" : "nbr of walkers to use in MCMC"
