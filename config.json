@@ -1,0 +1,17 @@
+{
+	"use_tex" : true,
+	"__use_tex_comment__" : "if you have TeX installed, you can use this to get nicer plots",
+	"show_figs" : true,
+	"__show_figs_comment__" : "show produced figures after program finishes?",
+	"save_figs" : true,
+	"__save_figs_comment__" : "save produced figures after program finishes?",
+
+	"nbr_bins" : 81,
+	"__nbr_bins_comment__" : "nbr of bins used in visualizing pdf obtained from MCMC",
+	"nbr_warmup" : 200,
+	"__nbr_warmup_comment__" : "nbr of warmup samples to use in MCMC",
+	"nbr_samples" : 10000,
+	"__nbr_samples__comment__" : "nbr of samples to use in MCMC",
+	"nbr_walkers" : 32,
+	"__nbr_walkers_comment__" : "nbr of walkers to use in MCMC"
+}
