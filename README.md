@@ -4,6 +4,10 @@ If you want to, say, find a nice pizzeria, and there are two pizzerias in your a
 
 The model consists of set of probabilities p1, p2, p3, p4, p5 (with p5 = 1 - p1 - p2 - p3 - p4) of a review being 1, 2, 3, 4, or 5 stars respectively. It uses a flat prior, i.e. prior(p1, p2, p3, p4) = (0 <= p1) * (0 <= p2) * (0 <= p3) * (0 <= p4) * (p1 + p2 + p3 + p4 <= 1).
 
+Here is a comparison between those two pizzerias:\
+<img src="https://raw.githubusercontent.com/SimonKvantdator/probabilities-from-reviews/master/example%20plots/ratings_histogram_1st_pizzeria.png" width="400">
+<img src="https://raw.githubusercontent.com/SimonKvantdator/probabilities-from-reviews/master/example%20plots/ratings_histogram_2nd_pizzeria.png" width="400">
+
 There is also an attempt at an analytic solution using Mathematica. The conclusion seems to be that it's difficult.
 
 ### How do you use this code?
